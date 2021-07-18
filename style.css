@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  background-image: linear-gradient(
+    to top,
+    #a2dbfa,
+    #8bcdf2,
+    #72beea,
+    #58b0e3,
+    #39a2db
+  );
+}
+h1 {
+  margin: 20px;
+  color: #402218;
+}
+canvas {
+  background-color: #e8f0f2;
+  border-radius: 5px;
+}
