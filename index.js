@@ -67,7 +67,7 @@ yMarkings();
 
 //Creating Graph
 
-for (let i = 1; i <= user.length + 1; i++) {
+for (let i = 1; i < user.length + 1; i++) {
   barGraph(60 * i, 50, user[i - 1].amount, user[i - 1].barColor);
   xText(60 * i, user[i - 1].user);
 }
